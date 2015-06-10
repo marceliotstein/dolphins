@@ -1,0 +1,52 @@
+/*
+ * CSS for dolphins.com
+ */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.navbar {
+  width: 800px;
+  background-color: blue;
+  color: white;
+  padding: 6px 0px 6px 0px;
+}
+
+.buttons {
+  padding: 6px;
+  margin: 6px;
+}
+
+.button {
+  background-color: indigo;
+  color: chartreuse;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 9px;
+}
+
+.main {
+  width: 800px;
+  text-align: center;
+  padding: 15px;
+}
+
+.main-inner {
+  margin: 0 auto;
+}
+
+.main-descrip {
+  text-align: center;
+}
+
+.footer {
+  padding: 15px;
+  width: 800px;
+  background-color: darkslateblue;
+  color: lemonchiffon;
+}
+
+.footer-title {
+  font-size: 2em;
+}
