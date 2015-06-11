@@ -18,11 +18,13 @@ header {
   text-align: right;
   color: black;
 }
+
 header .intro-text {
   padding-top: 210px;
   padding-bottom: 210px;
   min-height: 420px;
 }
+
 header .intro-text .intro-heading {
   text-transform: uppercase;
   font-weight: 700;
@@ -32,6 +34,7 @@ header .intro-text .intro-heading {
   padding: 4px;
   background: rgba(255, 255, 255, 0.5);
 }
+
 @media (min-width: 768px) {
   header .intro-text {
     text-align: right;
@@ -49,6 +52,7 @@ header .intro-text .intro-heading {
     background: rgba(255, 255, 255, 0.5);
   }
 }
+
 @media (min-width: 1200px) {
   header {
     background-image: url('../images/dolphins-frontwide.jpg');
@@ -66,5 +70,30 @@ header .intro-text .intro-heading {
     margin: 0px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
   }
 }
